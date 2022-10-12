@@ -1,0 +1,29 @@
+- commits:
+    - subject: Update channel name, slug, and query
+      hash: 24dedab95a42bfd1d343873830374602d9a8892d
+      body: |
+        Revert channel slug back to channel-user-feedback so as to not
+        cause user interruption for those who frequent the channel. Update the
+        query to match both old user-feedback contracts and the new
+        typeform-feedback contracts. Will restrict to typeform-feedback
+        contracts once the type transition is complete.
+      footer:
+        Change-type: major
+        change-type: major
+        Signed-off-by: Josh Bowling <josh@monarci.com>
+        signed-off-by: Josh Bowling <josh@monarci.com>
+      author: Josh Bowling
+      nested: []
+  version: 1.0.0
+  title: ""
+  date: 2022-10-12T03:44:23.263Z
+- version: 0.1.0
+  date: 2022-10-12T02:32:46Z
+  commits:
+    - hash: 3938515234aa627da754fe4e63b6d8d0b4adfa96
+      author: Josh Bowling
+      footers:
+        change-type: minor
+        signed-off-by: Josh Bowling <josh@monarci.com>
+      subject: Initialize codebase
+      body: null
