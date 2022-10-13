@@ -1,4 +1,18 @@
 - commits:
+    - subject: Add relationships
+      hash: 4b6c06e088a3a64c5923f2b02ee4a2d45d6499fd
+      body: ""
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Josh Bowling <josh@monarci.com>
+        signed-off-by: Josh Bowling <josh@monarci.com>
+      author: Josh Bowling
+      nested: []
+  version: 2.1.0
+  title: ""
+  date: 2022-10-13T05:26:38.260Z
+- commits:
     - subject: Simplify contracts, remove integration
       hash: 8258d9d28a056b86d579f69281f3e1955fe44c7d
       body: ""
