@@ -1,6 +1,5 @@
 import type { PluginDefinition } from '@balena/jellyfish-worker';
 import { contracts } from './contracts';
-import { integrations } from './integrations';
 export * from './types';
 
 // tslint:disable-next-line: no-var-requires
@@ -15,6 +14,5 @@ export const feedbackPlugin = (): PluginDefinition => {
 		name: 'Feedback Plugin',
 		version,
 		contracts,
-		integrationMap: integrations,
 	};
 };
