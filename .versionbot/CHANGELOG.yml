@@ -1,4 +1,18 @@
 - commits:
+    - subject: Simplify contracts, remove integration
+      hash: 8258d9d28a056b86d579f69281f3e1955fe44c7d
+      body: ""
+      footer:
+        Change-type: major
+        change-type: major
+        Signed-off-by: Josh Bowling <josh@monarci.com>
+        signed-off-by: Josh Bowling <josh@monarci.com>
+      author: Josh Bowling
+      nested: []
+  version: 2.0.0
+  title: ""
+  date: 2022-10-13T03:40:20.351Z
+- commits:
     - subject: Update channel name, slug, and query
       hash: 24dedab95a42bfd1d343873830374602d9a8892d
       body: |
