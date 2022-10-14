@@ -1,4 +1,18 @@
 - commits:
+    - subject: Add channel
+      hash: 1f695e0dcb2cc7a0b75deccc9a4c7779d858374e
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@monarci.com>
+        signed-off-by: Josh Bowling <josh@monarci.com>
+      author: Josh Bowling
+      nested: []
+  version: 2.1.1
+  title: ""
+  date: 2022-10-14T03:17:25.098Z
+- commits:
     - subject: Add relationships
       hash: 4b6c06e088a3a64c5923f2b02ee4a2d45d6499fd
       body: ""
