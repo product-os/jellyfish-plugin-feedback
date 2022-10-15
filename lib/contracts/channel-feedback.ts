@@ -15,7 +15,7 @@ export const channelFeedback: ContractDefinition = {
 				properties: {
 					type: {
 						type: 'string',
-						enum: ['user-feedback@1.0.0', 'typeform-feedback@1.0.0'],
+						enum: ['balena-hub-feedback@1.0.0', 'typeform-feedback@1.0.0'],
 					},
 				},
 			},

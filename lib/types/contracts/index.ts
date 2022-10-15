@@ -5,6 +5,11 @@
  */
 
 export type {
+	BalenaHubFeedbackContract,
+	BalenaHubFeedbackContractDefinition,
+	BalenaHubFeedbackData,
+} from './balena-hub-feedback';
+export type {
 	TypeformFeedbackContract,
 	TypeformFeedbackContractDefinition,
 	TypeformFeedbackData,
