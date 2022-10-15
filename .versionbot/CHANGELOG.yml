@@ -1,4 +1,18 @@
 - commits:
+    - subject: Add Balena Hub feedback
+      hash: c1f3bf55be8d3fe91351ce5c11c96be10209dff6
+      body: ""
+      footer:
+        Change-type: major
+        change-type: major
+        Signed-off-by: Josh Bowling <josh@monarci.com>
+        signed-off-by: Josh Bowling <josh@monarci.com>
+      author: Josh Bowling
+      nested: []
+  version: 3.0.0
+  title: ""
+  date: 2022-10-15T14:50:49.208Z
+- commits:
     - subject: Add channel
       hash: 1f695e0dcb2cc7a0b75deccc9a4c7779d858374e
       body: ""
