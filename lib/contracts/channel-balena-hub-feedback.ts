@@ -1,13 +1,13 @@
 import type { ContractDefinition } from 'autumndb';
 
-export const channelFeedback: ContractDefinition = {
-	slug: 'channel-feedback',
-	name: 'Feedback',
+export const channelBalenaHubFeedback: ContractDefinition = {
+	slug: 'channel-balena-hub-feedback',
+	name: 'balenaHub Feedback',
 	type: 'channel@1.0.0',
 	markers: ['org-balena'],
 	data: {
 		filter: {
-			name: 'Feedback contracts',
+			name: 'balenaHub feedback contracts',
 			schema: {
 				type: 'object',
 				additionalProperties: true,
@@ -15,7 +15,7 @@ export const channelFeedback: ContractDefinition = {
 				properties: {
 					type: {
 						type: 'string',
-						enum: ['balena-hub-feedback@1.0.0', 'typeform-feedback@1.0.0'],
+						const: 'balena-hub-feedback@1.0.0',
 					},
 				},
 			},
