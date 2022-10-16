@@ -1,4 +1,28 @@
 - commits:
+    - subject: Use older version of flowzone workflow
+      hash: 804921faa391ceabe3fdf193a1cd85e21a8aeb5d
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <Josh Bowling <josh@monarci.com>
+        signed-off-by: Josh Bowling <Josh Bowling <josh@monarci.com>
+      author: Josh Bowling
+      nested: []
+    - subject: Update channel to balena hub feedback only
+      hash: 39bde3954d4636d98bc4c1c3c0dc6c5acf732966
+      body: ""
+      footer:
+        Change-type: major
+        change-type: major
+        Signed-off-by: Josh Bowling <josh@monarci.com>
+        signed-off-by: Josh Bowling <josh@monarci.com>
+      author: Josh Bowling
+      nested: []
+  version: 4.0.0
+  title: ""
+  date: 2022-10-16T01:17:47.330Z
+- commits:
     - subject: Add Balena Hub feedback
       hash: c1f3bf55be8d3fe91351ce5c11c96be10209dff6
       body: ""
