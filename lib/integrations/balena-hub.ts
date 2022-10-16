@@ -1,3 +1,4 @@
+import { getLogger, LogContext } from '@balena/jellyfish-logger';
 import type {
 	Integration,
 	IntegrationDefinition,
@@ -6,29 +7,42 @@ import type {
 import * as skhema from 'skhema';
 
 const SLUG = 'balena-hub';
+const logger = getLogger(__filename);
 
-export function isEventValid(rawEvent: string): boolean {
-	return skhema.isValid(
-		{
-			type: 'object',
-			required: ['rating', 'couldDoAsWanted', 'path'],
-			properties: {
-				rating: {
-					type: 'number',
-				},
-				couldDoAsWanted: {
-					type: 'number',
-				},
-				details: {
-					type: 'string',
-				},
-				path: {
-					type: 'string',
+export function isEventValid(
+	logContext: LogContext,
+	rawEvent: string,
+): boolean {
+	if (
+		skhema.isValid(
+			{
+				type: 'object',
+				required: ['rating', 'couldDoAsWanted', 'path'],
+				properties: {
+					rating: {
+						type: 'number',
+					},
+					couldDoAsWanted: {
+						type: 'number',
+					},
+					details: {
+						type: 'string',
+					},
+					path: {
+						type: 'string',
+					},
 				},
 			},
-		},
-		JSON.parse(rawEvent),
-	);
+			JSON.parse(rawEvent),
+		)
+	) {
+		return true;
+	}
+
+	logger.info(logContext, 'Invalid balenaHub feedback payload', {
+		rawEvent,
+	});
+	return false;
 }
 
 export class BalenaHubIntegration implements Integration {
@@ -60,7 +74,7 @@ export class BalenaHubIntegration implements Integration {
 export const balenaHubIntegrationDefinition: IntegrationDefinition = {
 	slug: SLUG,
 	initialize: async (options) => new BalenaHubIntegration(options),
-	isEventValid: (_logConext, _token, rawEvent, _headers): boolean => {
-		return isEventValid(rawEvent);
+	isEventValid: (logContext, _token, rawEvent, _headers): boolean => {
+		return isEventValid(logContext, rawEvent);
 	},
 };
