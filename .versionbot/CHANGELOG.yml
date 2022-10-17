@@ -1,4 +1,16 @@
 - commits:
+    - subject: "Flowzone: switch back to master"
+      hash: 1a5644af4b32acc8be7019f3aee6c0e42815356d
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Page-
+      nested: []
+  version: 4.0.2
+  title: ""
+  date: 2022-10-17T14:48:56.723Z
+- commits:
     - subject: Log on invalid balenaHub feedback payload
       hash: 175a2a9f26b334bdd10b6e9c3b984dfc99ce1e80
       body: ""
