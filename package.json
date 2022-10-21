@@ -72,9 +72,9 @@
     "publishedAt": "2022-10-17T14:48:56.790Z"
   },
   "dependencies": {
-    "@balena/jellyfish-worker": "^35.0.24",
+    "@balena/jellyfish-worker": "^36.0.0",
     "@types/uuid": "^8.3.4",
-    "autumndb": "^22.2.138",
+    "autumndb": "^22.2.154",
     "skhema": "^6.0.6",
     "uuid": "^9.0.0"
   }
