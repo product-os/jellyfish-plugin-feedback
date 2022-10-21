@@ -1,4 +1,18 @@
 - commits:
+    - subject: Bump internal packages
+      hash: 8e8a2a11fc7153464efbe3f3881222de7db4d2c2
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@monarci.com>
+        signed-off-by: Josh Bowling <josh@monarci.com>
+      author: Josh Bowling
+      nested: []
+  version: 4.0.3
+  title: ""
+  date: 2022-10-21T03:12:20.055Z
+- commits:
     - subject: "Flowzone: switch back to master"
       hash: 1a5644af4b32acc8be7019f3aee6c0e42815356d
       body: ""
