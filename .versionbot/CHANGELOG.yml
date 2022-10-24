@@ -1,4 +1,18 @@
 - commits:
+    - subject: "Docs: Remove badge from readme"
+      hash: 0ebada8455c14a7bc88eb40dc1c4783474253c8d
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@monarci.com>
+        signed-off-by: Josh Bowling <josh@monarci.com>
+      author: Josh Bowling
+      nested: []
+  version: 4.0.4
+  title: ""
+  date: 2022-10-24T02:35:53.754Z
+- commits:
     - subject: Bump internal packages
       hash: 8e8a2a11fc7153464efbe3f3881222de7db4d2c2
       body: ""
