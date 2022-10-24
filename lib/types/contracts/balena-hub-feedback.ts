@@ -9,6 +9,7 @@
 import type { Contract, ContractDefinition } from 'autumndb';
 
 export interface BalenaHubFeedbackData {
+	details?: string;
 	[k: string]: unknown;
 }
 
