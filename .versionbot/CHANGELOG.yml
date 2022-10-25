@@ -1,4 +1,18 @@
 - commits:
+    - subject: Format details as markdown
+      hash: 9e1a6201d97aa6666c57d3a8af34753ab8aad7eb
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@monarci.com>
+        signed-off-by: Josh Bowling <josh@monarci.com>
+      author: Josh Bowling
+      nested: []
+  version: 4.0.5
+  title: ""
+  date: 2022-10-25T00:42:04.023Z
+- commits:
     - subject: "Docs: Remove badge from readme"
       hash: 0ebada8455c14a7bc88eb40dc1c4783474253c8d
       body: ""
