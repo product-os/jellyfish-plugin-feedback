@@ -8,6 +8,26 @@ export const balenaHubFeedback: ContractDefinition = {
 	data: {
 		schema: {
 			type: 'object',
+			properties: {
+				data: {
+					type: 'object',
+					properties: {
+						details: {
+							type: 'string',
+							format: 'markdown',
+						},
+					},
+				},
+			},
+		},
+		uiSchema: {
+			fields: {
+				data: {
+					details: {
+						'ui:widget': 'Markdown',
+					},
+				},
+			},
 		},
 	},
 };
