@@ -1,4 +1,19 @@
 - commits:
+    - subject: Update postgres Docker tag to v15
+      hash: edd94b7108340331b354a79c2762534df9dee264
+      body: |
+        Update postgres to 15
+
+        Update postgres from 14 to 15
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: Renovate Bot
+      nested: []
+  version: 4.5.0
+  title: ""
+  date: 2022-12-27T03:47:16.322Z
+- commits:
     - subject: Update dependency @balena/jellyfish-worker to 37.3.0
       hash: 1300464ce9ca97072498b405f6ebee0dfdfad909
       body: |
