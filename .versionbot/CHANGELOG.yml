@@ -1,4 +1,19 @@
 - commits:
+    - subject: Update dependency @types/uuid to 9.0.0
+      hash: 11b519d6258631e55514bf92241430557a737715
+      body: |
+        Update @types/uuid to 9.0.0
+
+        Update @types/uuid from 8.3.4 to 9.0.0
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: Renovate Bot
+      nested: []
+  version: 4.6.0
+  title: ""
+  date: 2022-12-28T06:50:58.931Z
+- commits:
     - subject: Update postgres Docker tag to v15
       hash: edd94b7108340331b354a79c2762534df9dee264
       body: |
