@@ -1,7 +1,7 @@
 import type { ActionDefinition } from '@balena/jellyfish-worker';
 import { strict as assert } from 'assert';
 import type { TypeContract } from 'autumndb';
-import { v4 as uuid } from 'uuid';
+import { randomUUID } from 'node:crypto';
 
 interface Feedback {
 	rating: number;
@@ -25,7 +25,7 @@ const handler: ActionDefinition['handler'] = async (
 			attachEvents: false,
 		},
 		{
-			slug: `balena-hub-feedback-${uuid()}`,
+			slug: `balena-hub-feedback-${randomUUID()}`,
 			data: {
 				rating: feedback.rating,
 				couldDoAsWanted: feedback.couldDoAsWanted,
