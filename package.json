@@ -1,7 +1,7 @@
 {
   "name": "@balena/jellyfish-plugin-feedback",
   "description": "Jellyfish Feedback Plugin",
-  "version": "4.6.0",
+  "version": "4.6.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/product-os/jellyfish-plugin-feedback.git"
@@ -69,7 +69,7 @@
     "pre-commit": "npx lint-staged"
   },
   "versionist": {
-    "publishedAt": "2022-12-28T06:50:59.020Z"
+    "publishedAt": "2023-01-01T07:35:55.552Z"
   },
   "dependencies": {
     "@balena/jellyfish-worker": "^37.0.0",
