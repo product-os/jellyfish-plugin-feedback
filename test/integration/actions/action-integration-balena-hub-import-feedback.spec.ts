@@ -1,7 +1,7 @@
 import { testUtils } from '@balena/jellyfish-worker';
 import { testUtils as aTestUtils } from 'autumndb';
 import nock from 'nock';
-import { v4 as uuidv4 } from 'uuid';
+import { randomUUID } from 'node:crypto';
 import { feedbackPlugin } from '../../../lib';
 
 let ctx: testUtils.TestContext;
@@ -38,7 +38,7 @@ describe('balena-hub feedback webhooks', () => {
 				reason: null,
 			},
 			{
-				slug: `external-event-${uuidv4()}`,
+				slug: `external-event-${randomUUID()}`,
 				data: {
 					source: 'balena-hub',
 					headers: {},
@@ -99,7 +99,7 @@ describe('balena-hub feedback webhooks', () => {
 				reason: null,
 			},
 			{
-				slug: `external-event-${uuidv4()}`,
+				slug: `external-event-${randomUUID()}`,
 				data: {
 					source: 'balena-hub',
 					headers: {},
